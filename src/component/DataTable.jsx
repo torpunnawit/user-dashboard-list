@@ -59,7 +59,7 @@ const DataTable = ({ data }) => {
   const handleSort = (columnIndex) => {
     let sorted = [...sortedData];
     let direction = "asc";
-    // let direction = sortConfig.direction === "asc" ? "desc" : "asc";
+   
     if (sortConfig.key === columnIndex && sortConfig.direction === "asc") {
       direction = "desc";
     }
